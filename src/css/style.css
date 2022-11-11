@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  transition: ease-in-out 0.3s;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.btn {
+  border: none;
+  margin: 10px 0px 0px 10px;
+  border-radius: 0.3rem;
+  width: 150px;
+  height: 50px;
+  color: white;
+  font-size: 16px;
+  background-color: rgb(0, 0, 0);
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(242, 118, 118);
+}
+
+.dot {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
